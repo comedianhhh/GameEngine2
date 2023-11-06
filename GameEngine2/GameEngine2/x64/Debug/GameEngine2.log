@@ -1,0 +1,101 @@
+﻿  Component.cpp
+  Engine.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(292,17): error C2259: 'IRenderable': cannot instantiate abstract class
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\IRenderable.h(5,7): message : see declaration of 'IRenderable'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(292,17): message : due to following members:
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(292,17): message : 'void IRenderable::Render(void)': is abstract
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\IRenderable.h(9,15): message : see declaration of 'IRenderable::Render'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(1837,29): message : see reference to class template instantiation 'std::_List_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>' being compiled
+          with
+          [
+              _Ty=IRenderable,
+              _Alloc=std::allocator<IRenderable>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(1832,10): message : while compiling class template member function 'void std::list<IRenderable,std::allocator<IRenderable>>::_Alloc_sentinel_and_proxy(void)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(800,34): message : see the first reference to 'std::list<IRenderable,std::allocator<IRenderable>>::_Alloc_sentinel_and_proxy' in 'std::list<IRenderable,std::allocator<IRenderable>>::list'
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\RenderSystem.h(42,2): message : see the first reference to 'std::list<IRenderable,std::allocator<IRenderable>>::list' in 'RenderSystem::RenderSystem'
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\RenderSystem.h(14,25): message : see reference to class template instantiation 'std::list<IRenderable,std::allocator<IRenderable>>' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(333,1): warning C4624: 'std::_List_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>': destructor was implicitly defined as deleted
+          with
+          [
+              _Ty=IRenderable,
+              _Alloc=std::allocator<IRenderable>
+          ]
+  Entity.cpp
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\Entity.cpp(20,3): error C2027: use of undefined type 'Component'
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\Entity.h(6,7): message : see declaration of 'Component'
+  Ghoul.cpp
+  IRenderable.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(292,17): error C2259: 'IRenderable': cannot instantiate abstract class
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\IRenderable.h(5,7): message : see declaration of 'IRenderable'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(292,17): message : due to following members:
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(292,17): message : 'void IRenderable::Render(void)': is abstract
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\IRenderable.h(9,15): message : see declaration of 'IRenderable::Render'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(1837,29): message : see reference to class template instantiation 'std::_List_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>' being compiled
+          with
+          [
+              _Ty=IRenderable,
+              _Alloc=std::allocator<IRenderable>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(1832,10): message : while compiling class template member function 'void std::list<IRenderable,std::allocator<IRenderable>>::_Alloc_sentinel_and_proxy(void)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(800,34): message : see the first reference to 'std::list<IRenderable,std::allocator<IRenderable>>::_Alloc_sentinel_and_proxy' in 'std::list<IRenderable,std::allocator<IRenderable>>::list'
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\RenderSystem.h(42,2): message : see the first reference to 'std::list<IRenderable,std::allocator<IRenderable>>::list' in 'RenderSystem::RenderSystem'
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\RenderSystem.h(14,25): message : see reference to class template instantiation 'std::list<IRenderable,std::allocator<IRenderable>>' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(333,1): warning C4624: 'std::_List_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>': destructor was implicitly defined as deleted
+          with
+          [
+              _Ty=IRenderable,
+              _Alloc=std::allocator<IRenderable>
+          ]
+  main.cpp
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\main.cpp(14,50): error C2065: 'doSomething': undeclared identifier
+  Object.cpp
+  RenderSystem.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(292,17): error C2259: 'IRenderable': cannot instantiate abstract class
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\IRenderable.h(5,7): message : see declaration of 'IRenderable'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(292,17): message : due to following members:
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(292,17): message : 'void IRenderable::Render(void)': is abstract
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\IRenderable.h(9,15): message : see declaration of 'IRenderable::Render'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(1837,29): message : see reference to class template instantiation 'std::_List_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>' being compiled
+          with
+          [
+              _Ty=IRenderable,
+              _Alloc=std::allocator<IRenderable>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(1832,10): message : while compiling class template member function 'void std::list<IRenderable,std::allocator<IRenderable>>::_Alloc_sentinel_and_proxy(void)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(800,34): message : see the first reference to 'std::list<IRenderable,std::allocator<IRenderable>>::_Alloc_sentinel_and_proxy' in 'std::list<IRenderable,std::allocator<IRenderable>>::list'
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\RenderSystem.h(42,2): message : see the first reference to 'std::list<IRenderable,std::allocator<IRenderable>>::list' in 'RenderSystem::RenderSystem'
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\RenderSystem.h(14,25): message : see reference to class template instantiation 'std::list<IRenderable,std::allocator<IRenderable>>' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(333,1): warning C4624: 'std::_List_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>': destructor was implicitly defined as deleted
+          with
+          [
+              _Ty=IRenderable,
+              _Alloc=std::allocator<IRenderable>
+          ]
+  Sprite.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(292,17): error C2259: 'IRenderable': cannot instantiate abstract class
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\IRenderable.h(5,7): message : see declaration of 'IRenderable'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(292,17): message : due to following members:
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(292,17): message : 'void IRenderable::Render(void)': is abstract
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\IRenderable.h(9,15): message : see declaration of 'IRenderable::Render'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(1837,29): message : see reference to class template instantiation 'std::_List_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>' being compiled
+          with
+          [
+              _Ty=IRenderable,
+              _Alloc=std::allocator<IRenderable>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(1832,10): message : while compiling class template member function 'void std::list<IRenderable,std::allocator<IRenderable>>::_Alloc_sentinel_and_proxy(void)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(800,34): message : see the first reference to 'std::list<IRenderable,std::allocator<IRenderable>>::_Alloc_sentinel_and_proxy' in 'std::list<IRenderable,std::allocator<IRenderable>>::list'
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\RenderSystem.h(42,2): message : see the first reference to 'std::list<IRenderable,std::allocator<IRenderable>>::list' in 'RenderSystem::RenderSystem'
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\RenderSystem.h(14,25): message : see reference to class template instantiation 'std::list<IRenderable,std::allocator<IRenderable>>' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(333,1): warning C4624: 'std::_List_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>': destructor was implicitly defined as deleted
+          with
+          [
+              _Ty=IRenderable,
+              _Alloc=std::allocator<IRenderable>
+          ]
+  Zombie.cpp
+  Generating Code...
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\Zombie.cpp(17): warning C4172: returning address of local variable or temporary
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\Ghoul.cpp(17): warning C4172: returning address of local variable or temporary
+D:\GIthub_rep\PROG54310\GameEngine2\GameEngine2\Component.cpp(16): warning C4172: returning address of local variable or temporary
