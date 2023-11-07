@@ -2,18 +2,21 @@
 #include "RenderSystem.h"
 Sprite::Sprite() 
 {
-	RenderSystem::Instance().AddRenderable(this);
+
 }
-Sprite::~Sprite()
+void Sprite::Load(json::JSON)
 {
-	RenderSystem::Instance().RemoveRenderable(this);
+
+}
+void Sprite::Destroy()
+{
+	delete this;
+}
+void Sprite::Update()
+{
+
 }
 
-const std::string& Sprite::GetComponentType()
-{
-	static std::string _spriteClass= "Sprite";
-	return _spriteClass;
-}
 void Sprite::Render()
 {
 	

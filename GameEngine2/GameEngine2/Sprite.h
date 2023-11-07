@@ -4,16 +4,16 @@
 
 #include "IRenderable.h"
 #include "Component.h"
+#include"simpleJSON/json.hpp"
 class Sprite:public IRenderable,public Component
 {
 public:
 	Sprite();
-	~Sprite();
-	const std::string& GetComponentType() override;
-	void Update() override;
-
+	void Load(json::JSON) override;
 protected:
-	void Render() override;
+	void Destroy() override;
+	void Update() override;
+	void Render();
 };
 
 #endif // !_SPRITE_H_

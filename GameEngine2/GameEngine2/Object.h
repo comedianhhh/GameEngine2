@@ -1,5 +1,9 @@
 #pragma once
+#ifndef _OBJECT_H_
+#define _OBJECT_H_
 
+
+#include"simpleJSON/json.hpp"
 #include <string>
 class Object
 {
@@ -10,11 +14,14 @@ private:
 protected:
 	Object();
 	virtual ~Object();
-public: 
 	virtual void Initialize()=0;
 	virtual void Destroy() {};
-	bool IsInitialized() { return initialized; };
-	int GetId() { return id; };
-	std::string& GetName() { return name; };
+public: 
+	virtual void Load(json::JSON) = 0;
+	virtual bool IsInitialized()=0;
+	int GetId();
+	std::string& GetName();
 };
 
+
+#endif // !_OBJECT_H_

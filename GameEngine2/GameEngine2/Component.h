@@ -4,16 +4,18 @@
 
 #include <string>
 #include "Object.h"
+#include"simpleJSON/json.hpp"
+
 class Component:public Object
 {
 	int value = 0;
 protected:
 	Component();
 	~Component();
-public:
 	void Initialize();
-	virtual const std::string& GetComponentType()=0;
-	virtual void Update();
+	virtual void Update()=0;
+public:
+	void Load(json::JSON) override;
 
 	friend class Entity;
 };

@@ -1,10 +1,15 @@
 #include "IRenderable.h"
 #include "RenderSystem.h"
-IRenderable::IRenderable() 
+
+IRenderable::IRenderable()
 {
-	RenderSystem::Instance().AddRenderable(this);
+
 }
 IRenderable::~IRenderable() 
 {
-	RenderSystem::Instance().RemoveRenderable(this);
+	
+}
+void IRenderable::Render()
+{
+
 }

@@ -5,9 +5,12 @@ Entity::Entity() {
 Entity::~Entity() {
 
 }
-void Entity::AddComponent(Component* component)
+
+Component* Entity::CreateComponent(Component* _component)
 {
-	components.push_back(component);
+	
+	components.push_back(_component);
+	return _component;
 }
 void Entity::RemoveComponent(Component* _component)
 {
@@ -23,16 +26,18 @@ void Entity::RemoveComponent(Component* _component)
 }
 void Entity::Update()
 {
-	//for(auto component : components)
-	//{
-	//	component->Update();
-	//}
+
 }
 void Entity::Initialize()
 {
 
 }
 void Entity::Destroy()
+{
+
+}
+
+void Entity::Load(json::JSON)
 {
 
 }

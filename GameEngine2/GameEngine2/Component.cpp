@@ -11,11 +11,13 @@ void Component::Initialize()
 {
 
 }
-const std::string& Component::GetComponentType() 
-{
-	return "Component";
-}
+
+
 void Component::Update() 
 {
 
+}
+
+void Component::Load(json::JSON)
+{
 }

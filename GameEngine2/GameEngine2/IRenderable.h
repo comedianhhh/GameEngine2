@@ -6,11 +6,12 @@ class IRenderable
 {
 private:
 	friend class RenderSystem;
-	virtual void Render()=0;
+
+
 protected:
 	IRenderable();
 	~IRenderable();
-
+	void Render();
 };
 #endif // !_IRENDERABLE_H_
 
