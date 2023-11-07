@@ -17,7 +17,7 @@ void Engine::Initialize()
 	SceneManager::Instance().Initialize();
 	RenderSystem::Instance().Initialize();
 	InputManager::Instance().Initialize();
-
+	AssetManager::Instance().Initialize();
 }
 void Engine::Load()
 {
