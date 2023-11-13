@@ -4,9 +4,9 @@
 
 #include "IRenderable.h"
 #include "Component.h"
-#include"simpleJSON/json.hpp"
 class Sprite:public IRenderable,public Component
 {
+	DECLARE_ABSTRACT_DERIVED_CLASS(Sprite,Component);
 public:
 	Sprite();
 	void Load(json::JSON) override;

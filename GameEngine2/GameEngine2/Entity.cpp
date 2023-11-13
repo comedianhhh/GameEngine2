@@ -1,4 +1,8 @@
+#include"EngineCore.h"
 #include "Entity.h"
+
+IMPLEMENT_ABSTRACT_CLASS(Entity);
+
 Entity::Entity() {
 
 }

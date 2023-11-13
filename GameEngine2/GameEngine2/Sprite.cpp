@@ -1,5 +1,7 @@
+#include"EngineCore.h"
 #include "Sprite.h"
 #include "RenderSystem.h"
+IMPLEMENT_ABSTRACT_CLASS(Sprite);
 Sprite::Sprite() 
 {
 

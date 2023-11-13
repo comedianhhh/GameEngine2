@@ -1,3 +1,4 @@
+#include"EngineCore.h"
 #include "RenderSystem.h"
 RenderSystem* RenderSystem::instance = nullptr;
 

@@ -13,102 +13,147 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{d2500376-4992-46b9-9fca-2a329ad8b86f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{2fe36689-8dd0-4b2d-b5c4-00f00324d7e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\System">
+      <UniqueIdentifier>{ce48fca4-3a4d-42a6-b7fc-6fbc436a925b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{429d8eef-df5f-4f42-bb52-8639ed231eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{e53496d9-3b91-42e7-86c5-5fdc8e7e6abd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{e9d2d81c-603a-491e-ae27-7b54f6b10c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\System">
+      <UniqueIdentifier>{ec88f220-0476-4799-b9fe-1a21948a833b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{146a706f-b329-4cbd-8094-40306bbfe433}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Object.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Entity.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Source Files\System</Filter>
     </ClCompile>
     <ClCompile Include="Component.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Sprite.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="IRenderable.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="RenderSystem.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Components</Filter>
     </ClCompile>
     <ClCompile Include="Engine.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="simpleJSON\json.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Scene.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\System</Filter>
     </ClCompile>
     <ClCompile Include="SceneManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="InputManager.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AssetManager.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\System</Filter>
     </ClCompile>
     <ClCompile Include="TextureAsset.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\System</Filter>
     </ClCompile>
     <ClCompile Include="Time.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderSystem.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="IRenderable.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Core</Filter>
     </ClCompile>
     <ClCompile Include="Asset.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine_Register.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="mersenne.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeClass.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="json.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files\Core</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Object.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Entity.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Component.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Sprite.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="IRenderable.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="RenderSystem.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Components</Filter>
     </ClInclude>
     <ClInclude Include="Engine.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\System</Filter>
     </ClInclude>
-    <ClInclude Include="simpleJSON\json.hpp">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Object.h">
+      <Filter>Header Files\Core</Filter>
     </ClInclude>
-    <ClInclude Include="Scene.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="RenderSystem.h">
+      <Filter>Header Files\System</Filter>
     </ClInclude>
     <ClInclude Include="SceneManager.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="InputManager.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\System</Filter>
     </ClInclude>
     <ClInclude Include="AssetManager.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Header Files\System</Filter>
     </ClInclude>
     <ClInclude Include="TextureAsset.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\System</Filter>
     </ClInclude>
     <ClInclude Include="Time.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\System</Filter>
     </ClInclude>
     <ClInclude Include="Asset.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IRenderable.h">
+      <Filter>Header Files\System</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineCore.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="randomc.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="TypeClass.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="StandardTypes.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files\Core</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

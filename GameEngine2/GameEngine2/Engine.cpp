@@ -1,6 +1,9 @@
+#include"EngineCore.h"
 #include "Engine.h"
 
 Engine* Engine::instance = nullptr;
+
+extern void Engine_Register();
 void Engine::GameLoop() {
 
 	Time::Instance().Update();

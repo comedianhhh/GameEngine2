@@ -4,7 +4,6 @@
 
 
 #include "Asset.h"
-#include"simpleJSON/json.hpp"
 class TextureAsset:public Asset
 {
 protected:

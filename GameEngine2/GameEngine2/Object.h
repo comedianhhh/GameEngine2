@@ -3,10 +3,11 @@
 #define _OBJECT_H_
 
 
-#include"simpleJSON/json.hpp"
-#include <string>
+
+
 class Object
 {
+	DECLARE_ABSTRACT_BASE_CLASS(Object);
 private:
 	bool initialized=false;
 	std::string name="";

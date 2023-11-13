@@ -1,5 +1,8 @@
+#include"EngineCore.h"
 #include "Scene.h"
 
+
+IMPLEMENT_ABSTRACT_CLASS(Scene);
 void Scene::Initialize()
 {
 }

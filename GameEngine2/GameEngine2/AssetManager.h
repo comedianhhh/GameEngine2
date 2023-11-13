@@ -1,7 +1,6 @@
 #pragma once
 #ifndef _ASSETMANAGER_H_
 #define _ASSETMANAGER_H_
-#include <list>
 #include "Asset.h"
 class AssetManager
 {

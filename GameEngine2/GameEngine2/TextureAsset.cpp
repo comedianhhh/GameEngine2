@@ -1,3 +1,4 @@
+#include"EngineCore.h"
 #include "TextureAsset.h"
 TextureAsset::TextureAsset()
 {

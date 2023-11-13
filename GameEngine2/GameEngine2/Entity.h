@@ -1,13 +1,12 @@
 #pragma once
-#ifndef _COMPONENT_H_
-#define _COMPONENT_H_
+#ifndef _Entity_H_
+#define _Entity_H_
 
-#include <list>
 #include "Object.h"
-#include "simpleJSON/json.hpp"
 class Component;
 class Entity:public Object
 {
+	DECLARE_ABSTRACT_DERIVED_CLASS(Entity, Object);
 private:
 	friend class Scene;
 	std::list<Component*> components;

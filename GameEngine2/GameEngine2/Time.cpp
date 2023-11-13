@@ -1,4 +1,9 @@
+
+#include"EngineCore.h"
+
 #include "Time.h"
+
+
 Time* Time::instance = nullptr;
 float Time::DeltaTime() const
 {

@@ -2,12 +2,13 @@
 #ifndef _COMPONENT_H_
 #define _COMPONENT_H_
 
-#include <string>
+
 #include "Object.h"
-#include"simpleJSON/json.hpp"
+
 
 class Component:public Object
 {
+	DECLARE_ABSTRACT_DERIVED_CLASS(Component,Object);
 	int value = 0;
 protected:
 	Component();

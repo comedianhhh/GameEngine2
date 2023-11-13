@@ -2,11 +2,11 @@
 #ifndef _SCENE_H_
 #define _SCENE_H_
 
-#include <list>
 #include "Entity.h"
 
 class Scene
 {
+	DECLARE_ABSTRACT_BASE_CLASS(Scene);
 private:
 	friend class SceneManager;
 	std::list<Entity*> entities;

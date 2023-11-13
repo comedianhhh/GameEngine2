@@ -3,12 +3,8 @@
 #define _RENDERSYSTEM_H_
 
 
-#include <string>
 #include"SDL.h"
-#include <list>
 #include "IRenderable.h"
-#include "simpleJSON/json.hpp"
-#include<fstream>
 
 class RenderSystem
 {
